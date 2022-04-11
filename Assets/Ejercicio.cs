@@ -17,7 +17,7 @@ public class Ejercicio : MonoBehaviour
         {
             Debug.Log("Escirba un nombre valido");
         }
-        if (año > 0 && año < 3)
+        else if (año > 0 && año < 3)
         {
             Debug.Log("Error. Aún estás en el ciclo básico");
         }
@@ -25,7 +25,7 @@ public class Ejercicio : MonoBehaviour
         {
             Debug.Log("Error, año ingresado invalido.");
         }        
-        else if (nombre !="" && año >= 3 && año <= 5 && orientacion == "T" || orientacion == "D" || orientacion == "G" || orientacion == "M" || orientacion == "H")
+        else if (nombre != "" && año >= 3 && año <= 5 && orientacion == "T" || orientacion == "D" || orientacion == "G" || orientacion == "M" || orientacion == "H")
         {
             Debug.Log("Muchas gracias " + nombre);
         }
